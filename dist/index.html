@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Digitális képkeret</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="main.css">
+    
 </head>
 <body>
-    <p>This is a template</p>    
+  <div class="container xd">
+ <div class="row">
+    <div class="col-md-3"><input id="kepUrl" type="text" placeholder="A kép URL-je"></div>
+    <div class="col-md-3"><input id="kepszelesseg" type="text" placeholder="A kép szlésesége (px)"></div>
+    <div class="col-md-3"><input id="kepkeretvastagsag" type="text" placeholder="A képkeret vastagsága"></div>
+    <div class="col-md-3"><input id="kepkeretszin" type="text" placeholder="A képkeret színe"></div>
+</div>
+  </div>
+<div class="container">
+
+
+    <div class="col-md-12 kepdiv">
+
+        <img id="kepecske" src="" alt="Itt a kép">
+
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+     
     <script src='main.js'></script>
 </body>
 </html>

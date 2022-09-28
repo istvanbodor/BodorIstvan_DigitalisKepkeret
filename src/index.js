@@ -16,7 +16,6 @@ function szelessegvaltas()
 }
 function keretvastagsag()
 {
-
     document.getElementById('kepecske').border = document.getElementById('kepkeretvastagsag').value;
 
 }
